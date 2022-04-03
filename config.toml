@@ -1,0 +1,105 @@
+languageCode = "pl"
+title = "Parafia Św. Andrzeja Apostoła"
+baseURL = "http://stablowice.archidiecezja.wroc.pl"
+theme = "hugo-html5up-alpha"
+disqusShortname = ""
+
+[params]
+  description = "Another fine responsive site template freebie by HTML5 UP."
+  author = "Opiekunowie strony: hermagat@gmail.com grzegorz.krystosek@gmail.com"
+  copyright = "© 2022 Parafia Stabłowice. Wszelkie prawa zastrzeżone"
+  design = "Design: [HTML5 UP](http://html5up.net/) [theme](https://github.com/parafia-stablowice/hugo-html5up-alpha)"
+  mainSections = ["ogloszenia", "intencje"]
+
+### Footer Social Media Links ###
+[[params.share]]
+title = "facebook"
+icon = "fa-facebook-f" # fontawesome icons https://fontawesome.com/icons?d=gallery&s=brands
+link = "https://www.facebook.com/Parafia-św-Andrzeja-Apostoła-Stabłowice-Wrocław-115060523469303/"
+
+### For Pages the .RelPermalink must match the menu .URL
+### For sections the name/directory must match the menu .Identifier
+[menu]
+  [[menu.main]]
+    identifier = "glowna"
+    name = "Strona główna"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "ogloszenia"
+    name = "Ogłoszenia parafialne"
+    url = "/ogloszenia/"
+    weight = 10
+  [[menu.main]]
+    identifier = "intencje"
+    name = "Intencje Mszalne"
+    url = "/intencje/"
+    weight = 20
+  [[menu.main]]
+    identifier = "swietlica"
+    name = "Świetlica środowiskowa"
+    url = "/swietlica/"
+    weight = 40
+  [[menu.main]]
+    identifier = "wspolnoty"
+    name = "Wspólnoty"
+    url = "/wspolnoty/"
+    weight = 50
+  [[menu.main]]
+    identifier = "o-parafii"
+    name = "O parafii"
+    url = "/o-parafii"
+    weight = 60
+  [[menu.main]]
+    identifier = "galeria"
+    name = "Galeria"
+    url = "/galeria/"
+    weight = 70
+  [[menu.main]]
+    identifier = "rodo"
+    name = "RODO"
+    url = "/rodo/"
+    weight = 70
+
+  [[menu.main]]
+    parent = "o-parafii"
+    identifier = "patron"
+    name = "Patron"
+    url = "/o-parafii/patron/"
+    weight = 61
+  [[menu.main]]
+    parent = "o-parafii"
+    identifier = "powstanie"
+    name = "Powstanie parafii"
+    url = "/o-parafii/powstanie/"
+    weight = 62
+  [[menu.main]]
+    parent = "o-parafii"
+    identifier = "budowa"
+    name = "Budowa kościoła"
+    url = "/o-parafii/budowa/"
+    weight = 63
+  [[menu.main]]
+    parent = "o-parafii"
+    identifier = "konsekracja"
+    name = "Konsekracja kościoła"
+    url = "/o-parafii/konsekracja/"
+    weight = 64
+  [[menu.main]]
+    parent = "o-parafii"
+    identifier = "kalendarium"
+    name = "Kalendarium"
+    url = "/o-parafii/kalendarium/"
+    weight = 65
+  [[menu.main]]
+    parent = "o-parafii"
+    identifier = "duszpasterze"
+    name = "Poprzedni duszpasterze"
+    url = "/o-parafii/duszpasterze/"
+    weight = 65
+  [[menu.main]]
+    parent = "o-parafii"
+    identifier = "rada"
+    name = "Rada parafialna"
+    url = "/o-parafii/rada/"
+    weight = 67

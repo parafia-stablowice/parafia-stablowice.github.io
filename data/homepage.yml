@@ -1,0 +1,55 @@
+### Banner ###
+banner:
+  enable: false
+  image: "images/background.png"
+  title: ""
+  content: ""
+  buttons:
+    - title: ""
+      link: "#"
+      class: "primary"
+    - title: ""
+      link: "#"
+
+### Highlight ###
+highlight:
+  enable: true
+  header: "Rzymsko-Katolicka Parafia pod wezwaniem <br>św. Andrzeja Apostoła we Wrocławiu"
+  content: "Msze Św. w niedzielę: <strong>8:30  10:00  11:30  13:00  18:00</strong>, w dni powszednie: 8:00, 18:00.
+            <br>Spowiedź święta - codziennie przed Mszą Świętą."
+  image: "images/main.jpg"
+
+### Features ###
+features:
+  enable: true
+  rows:
+    - items:
+      - title: "Wspólnoty"
+        icon: "fa-users"
+        accent: "accent4"
+        url: /wspolnoty/
+      - title: "Świetlica"
+        icon: "fa-pencil-ruler"
+        accent: "accent3"
+        url: /swietlica/
+    - items:
+      - title: "O parafii"
+        icon: "fa-church"
+        accent: "accent5"
+        url: /o-parafii/
+      - title: "Galeria"
+        icon: "fa-images"
+        accent: "accent2"
+        url: /galeria/
+
+### Blog ###
+blog:
+  enable: true
+  # Leave header text blank to remove entire <section>
+  header: "Aktualności"
+  buttonText: "Przejdź"
+  postCount: 2
+
+### Call to Action ###
+cta:
+  enable: false

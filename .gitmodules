@@ -1,0 +1,3 @@
+[submodule "themes/hugo-html5up-alpha"]
+	path = themes/hugo-html5up-alpha
+	url = git@github.com:parafia-stablowice/hugo-html5up-alpha.git
