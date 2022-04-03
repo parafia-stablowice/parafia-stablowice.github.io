@@ -1,6 +1,6 @@
 languageCode = "pl"
 title = "Parafia Św. Andrzeja Apostoła"
-baseURL = "http://stablowice.archidiecezja.wroc.pl"
+baseURL = "https://parafia-stablowice.github.io"
 theme = "hugo-html5up-alpha"
 disqusShortname = ""
 
