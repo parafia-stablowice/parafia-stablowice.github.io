@@ -1,0 +1,39 @@
+{{ define "main" }}
+{{ $blogSettings := .Site.Data.homepage.blog }}
+<header>
+    <h2>{{ .Title }}</h2>
+</header>
+<div class="row">
+    {{ range first 2 .Pages }}
+    <div class="col-6 col-12-narrower">
+        <section class="box special">
+            {{ with partial "bannerURL" . }}
+            <span class="image featured"><img src="{{ . }}" alt="" /></span>
+            {{ end }}
+            <h3>{{ .Title }}</h3>
+            {{ with .Date }}<p>{{ .Format "2.01.2006" }}</p>{{ end }}
+            {{ with .Description }}
+            <p>{{ . }}</p>
+            {{ end }}
+            <ul class="actions special">
+                <li><a href="{{ .Permalink }}" class="button alt">{{ $blogSettings.buttonText }} </a></li>
+            </ul>
+        </section>
+    </div>
+    {{ end }}
+</div>
+<div>
+    <section class="box">
+        <h3>Archiwum</h3>
+        <ul>
+            {{ range after 2 .Pages }}
+            <li>
+                <a href="{{ .RelPermalink }}">
+                    <span>{{ .Date.Format "2.01.2006" }}</span> — {{ .Title }}
+                </a>
+            </li>
+            {{ end }}
+        </ul>
+    </section>
+</div>
+{{ end }}
