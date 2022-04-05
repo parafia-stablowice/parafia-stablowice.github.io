@@ -29,3 +29,8 @@ Kancelaria parafialna czynna: poniedziałek i piątek bezpośrednio po Mszy Świ
 ### Konto remontowe parafii
 
 88 1090 2428 0000 0001 4888 3572
+
+### Opiekunowie strony
+
+grzegorz.krystosek@gmail.com  
+hermagat@gmail.com - [obecna strona parafii](http://stablowice.archidiecezja.wroc.pl)

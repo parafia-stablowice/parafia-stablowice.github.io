@@ -6,8 +6,8 @@ disqusShortname = ""
 
 [params]
   description = "Another fine responsive site template freebie by HTML5 UP."
-  author = "Opiekunowie strony: hermagat@gmail.com grzegorz.krystosek@gmail.com"
-  copyright = "© 2022 Parafia Stabłowice. Wszelkie prawa zastrzeżone"
+  author = ""
+  copyright = "© 2022 [Parafia Stabłowice](https://github.com/parafia-stablowice/parafia-stablowice.github.io). Wszelkie prawa zastrzeżone"
   design = "Design: [HTML5 UP](http://html5up.net/) [theme](https://github.com/parafia-stablowice/hugo-html5up-alpha)"
   mainSections = ["ogloszenia", "intencje"]
 
