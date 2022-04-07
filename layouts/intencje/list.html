@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{ range first 1 .Pages }}
+{{ partial "intencje-inner" . }}
+{{ end }}
+<div>
+    <section class="box">
+        <h3>Archiwum</h3>
+        <ul>
+            {{ range after 1 .Pages }}
+            <li>
+                <a href="{{ .RelPermalink }}">
+                    {{ .Title }}
+                </a>
+            </li>
+            {{ end }}
+        </ul>
+    </section>
+</div>
+{{ end }}

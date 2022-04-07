@@ -1,0 +1,17 @@
+.intencje > ul {
+    list-style: none;
+    padding-left: 0.5em;
+}
+
+    .intencje > ul > li {
+        display: flex;
+    }
+    .intencje > ul > li > p {
+        min-width: 3em;
+        border-right-style: inset;
+        border-right-width: 0.2em;
+    }
+    .intencje ul ul {
+        list-style: inside;
+        padding-left: 1em;
+    }
