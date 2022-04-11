@@ -14,9 +14,9 @@ banner:
 ### Highlight ###
 highlight:
   enable: true
-  header: "Rzymsko-Katolicka Parafia pod wezwaniem <br>św. Andrzeja Apostoła we Wrocławiu"
+  header: "Rzymsko-Katolicka Parafia pod wezwaniem<br> św. Andrzeja Apostoła we Wrocławiu"
   content: "Msze Św. w niedzielę: <strong>8:30  10:00  11:30  13:00  18:00</strong>, w dni powszednie: 8:00, 18:00.
-            <br>Spowiedź święta - codziennie przed Mszą Świętą."
+            <br> Spowiedź święta - codziennie przed Mszą Świętą."
   image: "images/main.jpg"
 
 ### Features ###
