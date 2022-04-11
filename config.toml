@@ -10,8 +10,8 @@ disqusShortname = ""
   copyright = "© 2022 [Parafia Stabłowice](https://github.com/parafia-stablowice/parafia-stablowice.github.io). Wszelkie prawa zastrzeżone"
   design = "Design: [HTML5 UP](http://html5up.net/) [theme](https://github.com/parafia-stablowice/hugo-html5up-alpha)"
   mainSections = ["ogloszenia", "intencje"]
-  custom_css = ["css/custom.css"]
-  custom_js = ["js/custom.js"]
+  custom_css = ["css/custom.css", "https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.css"]
+  custom_js = ["https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.js"]
 
 ### Footer Social Media Links ###
 [[params.share]]
