@@ -1,17 +1,37 @@
-.intencje > ul {
+.intencje>ul {
     list-style: none;
     padding-left: 0.5em;
 }
 
-    .intencje > ul > li {
-        display: flex;
-    }
-    .intencje > ul > li > p {
-        min-width: 3em;
-        border-right-style: inset;
-        border-right-width: 0.2em;
-    }
-    .intencje ul ul {
-        list-style: inside;
-        padding-left: 1em;
-    }
+.intencje>ul>li {
+    display: flex;
+}
+
+.intencje>ul>li>p {
+    min-width: 3em;
+    border-right-style: inset;
+    border-right-width: 0.2em;
+}
+
+.intencje ul ul {
+    list-style: inside;
+    padding-left: 1em;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.gallery a {
+    flex-grow: 1;
+    object-fit: cover;
+    margin: 2px;
+    display: flex;
+}
+
+div.gallery a img {
+    height: 200px;
+    object-fit: cover;
+    flex-grow: 1;
+}
