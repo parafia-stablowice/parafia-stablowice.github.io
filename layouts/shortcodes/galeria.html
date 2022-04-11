@@ -2,7 +2,7 @@
 {{ $image := (.Page.Resources.ByType "image") }}
 {{ with $image }}
 {{ range . }}
-{{ $resized := .Fill "200x200 q20" }}
+{{ $resized := .Fill "200x200 q30" }}
 <a href="{{ .Permalink }}" data-fancybox="gallery"><img src="{{ $resized.Permalink }}" /></a>
 {{ end }}
 {{ end }}

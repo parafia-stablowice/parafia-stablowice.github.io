@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <header>
+    <h2>{{ .Title }}</h2>
+    {{ with .Date }}
+    <p>{{ .Format "2.01.2006" }}</p>
+    {{ end }}
+  </header>
+  <div class="box">
+    {{ .Content }}
+    {{ partial "tags" . }}
+  </div>
+  {{ if .Site.DisqusShortname }}
+  <div class="box">
+    {{ template "_internal/disqus.html" . }}
+  </div>
+  {{ end }}
+{{ end }}
